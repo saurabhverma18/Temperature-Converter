@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://th.bing.com/th/id/OIG.SAE_w_DNE1PqXA20vlUS?pid=ImgGn");
+    background-size: cover;
+}
+
+.container{
+    max-width: 450px;
+    background-image:url("https://thumbs.dreamstime.com/b/red-surface-drops-water-liquid-gradient-transition-to-dark-color-abstract-background-theme-high-temperature-209410441.jpg");
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.4);
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+
+.Temperature-icon{
+    font-size: 45px;
+    color: black;
+    -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: white;
+    
+}
+
+h1{
+    color: black;
+    letter-spacing: 1px;
+    font-size: 30px;
+    -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: white;
+    
+}
+
+#celsius, #fahrenheit, #kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    
+}
+
+input{
+    flex: 5;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-color: darkgoldenrod;
+    border-radius: 8px 0 0 8px;
+    padding: 0 10px;
+    box-shadow: white 0px 0px 2px 2px ;
+
+}
+
+
+
+
+
+.icon{
+    flex: 1;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 30px;
+    background: black;
+    color: darkgoldenrod;
+    border-radius: 0 8px 8px 0;
+    box-shadow: white 0px 0px 2px 2px ;
+
+}
+
+
+.button{
+    margin-top: 25px;
+    text-align: center;
+    box-shadow: black 0px 0px 4px 2px ;
+    display:inline-block;
+    text-align: center;
+}
+
+
+.button button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button button:hover{
+    background: #000;
+    color: #fff;
+}
